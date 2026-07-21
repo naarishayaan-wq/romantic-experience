@@ -60,7 +60,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs tracking-[0.2em] uppercase text-purple-300/80"
             >
               <Sparkles className="w-3 h-3" />
-              <span>For You</span>
+              <span>Untukmu</span>
             </motion.div>
 
             <motion.h1
@@ -69,8 +69,8 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               transition={{ duration: 1.5, delay: 0.4, ease: "easeOut" }}
               className="font-serif text-5xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight text-glow"
             >
-              A Moment in Time,<br />
-              <span className="italic text-purple-200/90">Captured</span>
+              Momen dalam Waktu,<br />
+              <span className="italic text-purple-200/90">Terabadikan</span>
             </motion.h1>
 
             <motion.div
@@ -82,19 +82,19 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
               
               <p className="text-white/95 font-sans text-xl md:text-2xl font-light tracking-wide leading-relaxed drop-shadow-sm relative z-10">
-                "I've searched through a hundred shades of beauty, but how do I even praise you? No words were ever created that could truly capture your perfection."
+                "Aku telah mencari di antara seratus pesona keindahan, tetapi bagaimana aku bisa memujimu? Tidak ada kata yang pernah diciptakan yang benar-benar dapat menangkap kesempurnaanmu."
               </p>
               
               <div className="w-16 h-px bg-purple-500/30 mx-auto relative z-10" />
               
               <p className="text-purple-300 font-serif italic text-2xl md:text-3xl font-light tracking-wide leading-relaxed drop-shadow-[0_0_15px_rgba(216,180,226,0.4)] relative z-10">
-                "Sa libu-libong wika sa mundo, walang makakapantay sa ganda mo."
+                "Dari ribuan bahasa di dunia, tidak ada yang bisa menyamai kecantikanmu."
               </p>
               
               <div className="w-16 h-px bg-purple-500/30 mx-auto relative z-10" />
               
               <p className="text-white/70 font-sans text-sm md:text-base font-light tracking-widest uppercase leading-relaxed mt-2 relative z-10">
-                Some things are too beautiful to be left unspoken.<br/> Take your time, breathe, and let this unfold.
+                Beberapa hal terlalu indah untuk tidak diungkapkan.<br/> Luangkan waktumu, bernapaslah, dan biarkan ini terungkap.
               </p>
             </motion.div>
           </motion.div>
@@ -105,7 +105,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             transition={{ delay: 2.5, duration: 1 }}
             className="absolute bottom-12 flex flex-col items-center gap-4 text-white/40"
           >
-            <span className="text-[10px] tracking-[0.3em] uppercase">Scroll softly</span>
+            <span className="text-[10px] tracking-[0.3em] uppercase">Gulir perlahan</span>
             <motion.div
               animate={{ y: [0, 8, 0] }}
               transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
@@ -128,7 +128,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             
             <div className="mb-12 space-y-6">
               <p className="font-serif italic text-2xl md:text-3xl text-purple-300 drop-shadow-[0_0_10px_rgba(216,180,226,0.3)]">
-                "100 shades of I love you..."
+                "100 nuansa aku mencintaimu..."
               </p>
               
               {/* Translations Background Texture */}
@@ -146,17 +146,17 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             
             <div className="w-24 h-px bg-purple-500/30 mx-auto mb-12" />
 
-            <h2 className="font-serif text-3xl md:text-4xl text-white/90 mb-8 italic">The reason</h2>
+            <h2 className="font-serif text-3xl md:text-4xl text-white/90 mb-8 italic">Alasannya</h2>
             <p className="font-sans text-white/70 leading-relaxed text-lg md:text-xl font-light mb-12">
-              In a world that constantly rushes forward, finding a space that feels like a quiet sigh of relief is rare. You are that space. This isn't just a collection of words or colors; it's a reflection of the warmth you bring to ordinary days.
+              Di dunia yang terus bergegas, menemukan ruang yang terasa seperti embusan napas lega sangatlah langka. Kamulah ruang itu. Ini bukan hanya sekumpulan kata atau warna; ini adalah cerminan kehangatan yang kamu bawa di hari-hari biasa.
             </p>
             
             <div className="space-y-4">
               <p className="font-sans text-white/80 text-lg md:text-xl font-light leading-relaxed max-w-xl mx-auto">
-                Out of everyone I have ever met in my life, you are simply the best.
+                Dari semua orang yang pernah kutemui dalam hidupku, kamu adalah yang terbaik.
               </p>
               <p className="font-sans text-fuchsia-200/90 font-medium tracking-widest uppercase text-sm md:text-base drop-shadow-md">
-                You are my favorite person.
+                Kamu adalah orang favoritku.
               </p>
             </div>
           </motion.div>
@@ -179,7 +179,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
                 <Code2 className="w-8 h-8 text-purple-400 mb-6 drop-shadow-[0_0_15px_rgba(168,85,247,0.5)]" />
               </motion.div>
               <h2 className="font-serif text-3xl md:text-4xl text-white/90 italic text-glow text-center">
-                Written in the Stars (and Code)
+                Tertulis di Bintang (dan Kode)
               </h2>
             </div>
             
@@ -198,7 +198,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               
               {/* Romantic Content */}
               <div className="p-6 md:p-8 font-serif text-lg md:text-xl overflow-x-auto text-center italic text-white/80 leading-relaxed">
-                "In a sea of people, my eyes will always search for you. You are the poetry I never knew how to write, and the song my heart will always sing."
+                "Di lautan manusia, mataku akan selalu mencarimu. Kamu adalah puisi yang tak pernah kutahu cara menulisnya, dan lagu yang akan selalu dinyanyikan hatiku."
               </div>
             </div>
           </motion.div>
@@ -212,7 +212,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             viewport={{ once: true }}
             className="font-serif text-3xl md:text-4xl text-white/90 mb-16 text-center italic"
           >
-            It's for you my wife
+            Ini untukmu istriku
           </motion.h2>
           <Gallery />
         </section>
@@ -225,7 +225,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             viewport={{ once: true }}
             className="text-white/40 text-sm tracking-[0.2em] uppercase mb-6"
           >
-            The Magic Itself
+            Keajaiban Itu Sendiri
           </motion.p>
 
           <motion.h2
@@ -235,7 +235,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             transition={{ duration: 1 }}
             className="font-serif text-3xl md:text-5xl text-white/90 mb-14 text-center italic"
           >
-            The Most Beautiful Person
+            Orang Paling Cantik
           </motion.h2>
 
           <motion.div
@@ -243,12 +243,12 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 1 }}
-            className="glass-card max-w-lg w-full aspect-[4/5] md:aspect-[3/4] rounded-[2rem] overflow-hidden relative mx-auto border border-purple-500/30 shadow-[0_0_40px_rgba(168,85,247,0.2)]"
+            className="glass-card max-w-lg w-full aspect-square rounded-[2rem] overflow-hidden relative mx-auto border border-purple-500/30 shadow-[0_0_40px_rgba(168,85,247,0.2)] bg-black/40"
           >
             <img
               src={myWifeImg}
               alt="My Wife"
-              className="w-full h-full object-cover scale-[1.25] object-center"
+              className="w-full h-full object-contain p-4"
               loading="lazy"
             />
           </motion.div>
@@ -261,10 +261,10 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             className="max-w-xl mt-12 text-center"
           >
             <p className="font-sans text-white/40 text-xs tracking-[0.2em] uppercase mb-4">
-              MY WIFE
+              ISTRIKU
             </p>
             <p className="font-sans text-white/70 leading-relaxed text-lg md:text-xl font-light">
-              Every beautiful moment in my life has you in it. You are the light that guides me and the warmth that surrounds me. Your smile is my favorite masterpiece, and your love is my greatest treasure.
+              Setiap momen indah dalam hidupku selalu ada kamu di dalamnya. Kamu adalah cahaya yang membimbingku dan kehangatan yang mengelilingiku. Senyummu adalah mahakarya favoritku, dan cintamu adalah harta terbesarku.
             </p>
           </motion.div>
         </section>
@@ -288,13 +288,13 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               <Sparkles className="w-8 h-8 text-purple-400 drop-shadow-[0_0_15px_rgba(168,85,247,0.5)]" />
             </motion.div>
             
-            <h3 className="font-serif text-2xl md:text-3xl text-white/90 mb-6 italic">Just a thought...</h3>
+            <h3 className="font-serif text-2xl md:text-3xl text-white/90 mb-6 italic">Sekadar pikiran...</h3>
             <p className="font-sans text-white/70 leading-relaxed text-lg md:text-xl font-light">
-              I wanted to find the perfect words to describe how I feel, but every time I look into your eyes, I forget everything else.
+              Aku ingin mencari kata-kata yang sempurna untuk menggambarkan perasaanku, tetapi setiap kali aku menatap matamu, aku melupakan segalanya.
             </p>
             <div className="w-12 h-px bg-white/20 mx-auto my-6" />
             <p className="font-serif text-purple-200/90 leading-relaxed text-xl md:text-2xl italic">
-              "Are you a magician? Because whenever I look at you, everyone else disappears."
+              "Apakah kamu seorang pesulap? Karena setiap kali aku melihatmu, semua orang menghilang."
             </p>
           </motion.div>
         </section>
@@ -308,7 +308,7 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               viewport={{ once: true }}
               className="text-white/40 text-sm tracking-[0.2em] uppercase mb-12"
             >
-              A letter for you
+              Sepucuk surat untukmu
             </motion.p>
             <Envelope />
           </div>
@@ -329,18 +329,18 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               </svg>
             </div>
             
-            <h3 className="font-serif text-2xl text-white/90 mb-8 italic">A Symphony of Code & Art</h3>
+            <h3 className="font-serif text-2xl text-white/90 mb-8 italic">Simfoni Kode & Seni</h3>
             
             <div className="space-y-6 font-sans text-sm tracking-[0.1em]">
               <div className="flex flex-col items-center gap-1">
-                <span className="text-white/40 uppercase text-[10px]">Owner</span>
-                <span className="text-white/90 font-medium tracking-widest">MY WIFE</span>
-                <p className="text-white/50 text-xs mt-3 italic font-serif tracking-wider">This is the owner's photo:</p>
+                <span className="text-white/40 uppercase text-[10px]">Pemilik</span>
+                <span className="text-white/90 font-medium tracking-widest">ISTRIKU</span>
+                <p className="text-white/50 text-xs mt-3 italic font-serif tracking-wider">Ini adalah foto pemilik:</p>
                 <div 
                   className="mt-2 w-32 h-32 md:w-40 md:h-40 shrink-0 rounded-2xl overflow-hidden cursor-pointer border border-purple-500/30 shadow-[0_0_20px_rgba(168,85,247,0.4)] hover:scale-105 transition-all duration-300 relative group"
                   onClick={() => setOpenedPhoto(myWifeImg)}
                 >
-                  <img src={myWifeImg} alt="Owner" className="w-full h-full object-cover scale-[1.3] object-center group-hover:scale-[1.4] transition-transform duration-500" />
+                  <img src={myWifeImg} alt="Owner" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300" />
                 </div>
               </div>
@@ -348,14 +348,14 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               <div className="w-12 h-px bg-white/10 mx-auto" />
               
               <div className="flex flex-col items-center gap-1">
-                <span className="text-white/40 uppercase text-[10px]">Co-Owner</span>
+                <span className="text-white/40 uppercase text-[10px]">Rekan Pemilik</span>
                 <span className="text-white/90 font-medium tracking-widest">BAKA</span>
-                <p className="text-white/50 text-xs mt-3 italic font-serif tracking-wider">This is the co-owner's photo:</p>
+                <p className="text-white/50 text-xs mt-3 italic font-serif tracking-wider">Ini adalah foto rekan pemilik:</p>
                 <div 
                   className="mt-2 w-32 h-32 md:w-40 md:h-40 shrink-0 rounded-2xl overflow-hidden cursor-pointer border border-purple-500/30 shadow-[0_0_20px_rgba(168,85,247,0.4)] hover:scale-105 transition-all duration-300 relative group"
                   onClick={() => setOpenedPhoto(bakaImg)}
                 >
-                  <img src={bakaImg} alt="Co-Owner" className="w-full h-full object-cover scale-[1.3] object-center group-hover:scale-[1.4] transition-transform duration-500" />
+                  <img src={bakaImg} alt="Co-Owner" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300" />
                 </div>
               </div>
@@ -384,10 +384,10 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
             </motion.div>
             
             <h2 className="font-serif text-4xl md:text-6xl text-white/90 italic text-glow">
-              Thank you for visiting
+              Terima kasih telah berkunjung
             </h2>
             <p className="mt-6 text-white/40 font-sans tracking-[0.2em] text-xs uppercase">
-              You mean the world
+              Kamu sangat berarti bagiku
             </p>
           </motion.div>
         </section>
@@ -407,12 +407,12 @@ export default function Experience({ startBackgroundMusic = false }: ExperienceP
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.8, y: 20 }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="relative w-[85vw] max-w-sm aspect-[4/5] md:aspect-[3/4] rounded-3xl overflow-hidden border border-purple-500/30 shadow-[0_0_40px_rgba(168,85,247,0.3)] shrink-0"
+              className="relative w-[90vw] max-w-2xl aspect-square max-h-[85vh] rounded-3xl overflow-hidden border border-purple-500/30 shadow-[0_0_40px_rgba(168,85,247,0.3)] shrink-0 bg-black/40 flex items-center justify-center"
             >
               <img 
                 src={openedPhoto} 
                 alt="Full Photo" 
-                className="w-full h-full object-cover scale-[1.2] object-center"
+                className="w-full h-full object-contain p-2 md:p-4"
               />
               <button 
                 className="absolute top-4 right-4 w-10 h-10 bg-black/50 hover:bg-black/80 text-white rounded-full flex items-center justify-center backdrop-blur-md transition-colors"

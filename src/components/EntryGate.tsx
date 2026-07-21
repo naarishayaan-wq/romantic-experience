@@ -44,7 +44,7 @@ export default function EntryGate({ onEnter }: EntryGateProps) {
               transition={{ delay: 1.2, duration: 1 }}
               className="font-serif text-2xl md:text-3xl text-white/90 leading-relaxed tracking-wide mb-16 text-glow"
             >
-              Someone prepared something special just for you...
+              Seseorang telah menyiapkan sesuatu yang istimewa hanya untukmu...
             </motion.h1>
 
             <motion.button
@@ -56,7 +56,7 @@ export default function EntryGate({ onEnter }: EntryGateProps) {
               onClick={handleEnter}
               className="glass px-8 py-4 rounded-full font-sans text-sm tracking-[0.2em] uppercase text-white/80 hover:text-white transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,255,255,0.2)] border border-white/20 hover:border-white/40"
             >
-              Tap to Enter <span className="ml-2">♡</span>
+              Ketuk untuk Masuk <span className="ml-2">♡</span>
             </motion.button>
           </div>
           

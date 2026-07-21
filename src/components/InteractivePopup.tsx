@@ -35,14 +35,14 @@ export default function InteractivePopup() {
               <div className="flex flex-col items-center">
                 <Heart className="w-12 h-12 text-rose-400 mb-6 drop-shadow-[0_0_15px_rgba(225,29,72,0.6)] animate-pulse" fill="rgba(225,29,72,0.3)" />
                 <h3 className="font-serif text-3xl text-white/90 mb-2 italic">
-                  Who are you?
+                  Siapa kamu?
                 </h3>
                 <p className="text-white/70 mb-6 text-sm font-light">
-                  What are you doing on this website?
+                  Apa yang kamu lakukan di situs web ini?
                 </p>
                 
                 <div className="flex flex-col items-center gap-5 w-full mt-2">
-                  <p className="text-white/95 text-lg md:text-xl font-medium tracking-wide">Enter your WhatsApp number last 3 digits:</p>
+                  <p className="text-white/95 text-lg md:text-xl font-medium tracking-wide">Masukkan 3 digit terakhir nomor WhatsApp-mu:</p>
                   <input
                     type="text"
                     maxLength={3}
@@ -51,7 +51,7 @@ export default function InteractivePopup() {
                       const val = e.target.value.replace(/\D/g, '');
                       setInputValue(val);
                       if (val.length === 3) {
-                        if (val === '249') {
+                        if (val === '580') {
                           setIsAccepted(true);
                           setTimeout(() => setIsVisible(false), 3000);
                         } else {
@@ -79,13 +79,13 @@ export default function InteractivePopup() {
                   <Heart className="w-20 h-20 text-rose-500 mb-2 drop-shadow-[0_0_25px_rgba(225,29,72,0.8)]" fill="rgba(225,29,72,0.6)" />
                 </motion.div>
                 <h3 className="font-serif text-3xl md:text-4xl text-white/95 italic text-glow text-rose-200">
-                  Oh My God! ✨
+                  Ya Ampun! ✨
                 </h3>
                 <p className="text-xl md:text-2xl font-light text-white/90">
-                  This is our Boss's Wife!
+                  Selamat datang istriku!
                 </p>
                 <p className="text-lg font-medium text-purple-200 mt-4 bg-purple-900/40 px-6 py-3 rounded-2xl border border-purple-500/40 shadow-[0_0_15px_rgba(168,85,247,0.3)]">
-                  Welcome to the website, Queen. ❤️
+                  Selamat datang di situs web ini, Ratu. ❤️
                 </p>
               </motion.div>
             )}

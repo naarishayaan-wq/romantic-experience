@@ -21,7 +21,7 @@ export default function Envelope() {
       onClick={handleOpen}
       role="button"
       tabIndex={0}
-      aria-label={isOpen ? 'Close the letter' : 'Open the letter'}
+      aria-label={isOpen ? 'Tutup surat' : 'Buka surat'}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -89,12 +89,12 @@ export default function Envelope() {
               }}
             >
               <div className="font-['Alex_Brush'] text-slate-800 text-2xl md:text-3xl leading-relaxed text-center opacity-90 mix-blend-multiply">
-                <p className="mb-4">My Dearest,</p>
+                <p className="mb-4">Kasihku,</p>
                 <p className="mb-4">
-                  Every moment with you feels like a quiet kind of magic. 
-                  You make the ordinary beautiful.
+                  Setiap saat bersamamu terasa seperti keajaiban yang tenang. 
+                  Kamu membuat hal biasa menjadi indah.
                 </p>
-                <p>Always yours.</p>
+                <p>Selalu milikmu.</p>
               </div>
             </motion.div>
           )}

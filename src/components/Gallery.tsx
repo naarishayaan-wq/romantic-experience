@@ -1,12 +1,9 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, X } from 'lucide-react';
-import instaPic from '../assets/insta_pic.webp';
-import romanticWalk from '../assets/romantic_walk.png';
-import cozyPicnic from '../assets/cozy_picnic.png';
-import sunsetHeart from '../assets/sunset_heart.png';
-import ourBeautifulDream from '../assets/our_beautiful_dream.mp4';
-import thirdVideo from '../assets/third_video.mp4';
+import wifeGallery1 from '../assets/wife_gallery_1.jpg';
+import wifeGallery2 from '../assets/wife_gallery_2.jpg';
+import wifeGallery3 from '../assets/wife_gallery_3.jpg';
 import fourthVideo from '../assets/fourth_video.mp4';
 
 type GalleryItem =
@@ -16,23 +13,23 @@ type GalleryItem =
 const items: GalleryItem[] = [
   {
     type: 'image',
-    src: instaPic,
-    alt: 'Our Beautiful Moment'
+    src: wifeGallery1,
+    alt: 'Istriku 1'
   },
   {
-    type: 'video',
-    src: ourBeautifulDream,
-    alt: 'Our Beautiful Dream'
+    type: 'image',
+    src: wifeGallery2,
+    alt: 'Istriku 2'
   },
   {
-    type: 'video',
-    src: thirdVideo,
-    alt: 'A beautiful memory'
+    type: 'image',
+    src: wifeGallery3,
+    alt: 'Istriku 3'
   },
   {
     type: 'video',
     src: fourthVideo,
-    alt: 'For You My Wife'
+    alt: 'Untukmu Istriku'
   }
 ];
 
@@ -53,7 +50,7 @@ export default function Gallery() {
             onClick={() => setSelectedItem(item)}
             role="button"
             tabIndex={0}
-            aria-label={item.type === 'video' ? `Play video: ${item.alt}` : `View ${item.alt} in fullscreen`}
+            aria-label={item.type === 'video' ? `Putar video: ${item.alt}` : `Lihat ${item.alt} dalam layar penuh`}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
@@ -106,7 +103,7 @@ export default function Gallery() {
             <button 
               className="absolute top-6 right-6 p-2 rounded-full glass text-white/70 hover:text-white z-50 transition-colors"
               onClick={() => setSelectedItem(null)}
-              aria-label="Close"
+              aria-label="Tutup"
             >
               <X className="w-6 h-6" />
             </button>
